@@ -5,7 +5,7 @@ In this project, we analyze supervised machine learning approaches using the `Pe
 
 ## Understanding the Dataset:
 
-* The given dataset (Perinatal Risk Information.csv) includes health parameters which help us judge the perinatal health risk level based on the Age, Systolic BP, Diastolic BP, BS, BodyTemp and HeartRate. This risk level classification is stored in the Type column. The problem statement asks us to correctly classify whether a woman’s maternal health is at high risk, mid risk or low risk.
+* The given dataset (`Perinatal Risk Information.csv`) includes health parameters which help us judge the perinatal health risk level based on the Age, Systolic BP, Diastolic BP, BS, BodyTemp and HeartRate. This risk level classification is stored in the Type column. The problem statement asks us to correctly classify whether a woman’s maternal health is at high risk, mid risk or low risk.
 * The independent variables in this dataset are the columns labeled Age, Systolic BP, Diastolic BP, BS, BodyTemp and HeartRate.
 * The dependent variable in this dataset is the column Type.
 * Classification would be the appropriate machine learning approach for this problem as we have a dependent variable Type which takes 3 inputs - high risk, mid risk and low risk. Training a classifying model using supervised learning would be the optimal solution for this dataset as we wish to build a model which can accurately determine these factors.
@@ -24,7 +24,7 @@ In this project, we analyze supervised machine learning approaches using the `Pe
 
 
 ## Algorithm Selection and Application
-* The classification algorithms being used to generate the classifiers are the Decision Tree Classifier and Random Forest Classifier.
+* The classification algorithms being used to generate the classifiers are the `Decision Tree Classifier` and `Random Forest Classifier`.
 * Decision Tree Classifier – A decision tree is a non-parametric supervised learning algorithm, which is utilized for both classification and regression tasks. It has hierarchical tree structure, which consists of a root node, branches, internal nodes and leaf nodes. (IBM - https://www.ibm.com/topics/decision-trees)
 * Random Forest Classifier – Random Forest is a machine learning algorithm, that combines the output of multiple decision trees to reach a single result. It handles both classification and regression problems. (IBM - https://www.ibm.com/topics/random-forest)
 * In the model parameter we set class_weight = “balanced” to try to remove any imbalance in the dataset.
