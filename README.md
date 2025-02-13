@@ -1,4 +1,4 @@
-# Machine-Learning-Project-1
+# Supervised-Machine-Learning-Analysis
 
 In this project, we analyze supervised machine learning approaches using the `Perinatal Risk Information-1.csv` dataset.
 
